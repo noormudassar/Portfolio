@@ -111,8 +111,14 @@ nav ul li {
 }
 
 .hero img {
-  height: 37.5rem;
-  width: 37.5rem;
+  height: 30rem;
+  width: 30rem;
+  border-radius: 50%;
+}
+
+#about-image {
+  height: 30;
+  margin: 40%;
 }
 
 .bio {
@@ -155,6 +161,8 @@ nav ul li {
   margin: auto;
   text-align: center;
   margin-top: 2.5rem;
+  flex-direction: column;
+  justify-content: space-evenly;
 }
 
 .skill-header {
@@ -281,15 +289,14 @@ nav ul li {
 /* Social buttons */
 .socials {
   display: flex;
-  flex-direction: column;
-  position: fixed;
-  right: 1%;
-  bottom: 50%;
+  justify-content: center;
+  /* bottom: 50%; */
+  height: 200px;
 }
 
 .socicon {
-  width: 2rem;
-  height: 2rem;
+  width: 5rem;
+  height: 5rem;
 }
 /* Social button ends */
 
